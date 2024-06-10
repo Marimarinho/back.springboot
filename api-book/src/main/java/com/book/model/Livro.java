@@ -17,7 +17,7 @@ public class Livro {
     private LocalDate dataLeitura;
 
     @ManyToOne
-    private Autor autor; // Corrigido para referenciar a classe Autor
+    private Autor autor; // Corrigido
 
     @ManyToOne
     private Genero genero;
